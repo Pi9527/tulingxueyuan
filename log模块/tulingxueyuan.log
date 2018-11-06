@@ -1,0 +1,40 @@
+DEBUG:root:This is a debug log.
+INFO:root:This is a info log.
+WARNING:root:This is a warning log.
+ERROR:root:This is a error log.
+CRITICAL:root:This is a critical log.
+DEBUG:root:This is a debug log.
+INFO:root:This is a info log.
+WARNING:root:This is a warning log.
+ERROR:root:This is a error log.
+CRITICAL:root:This is a critical log.
+2018-11-06 11:44:52,664=====DEBUG=====(sessage)s
+2018-11-06 11:44:52,664=====INFO=====(sessage)s
+2018-11-06 11:44:52,664=====WARNING=====(sessage)s
+2018-11-06 11:44:52,664=====ERROR=====(sessage)s
+2018-11-06 11:44:52,664=====CRITICAL=====(sessage)s
+2018-11-06 11:44:52,664=====DEBUG=====(sessage)s
+2018-11-06 11:44:52,664=====INFO=====(sessage)s
+2018-11-06 11:44:52,664=====WARNING=====(sessage)s
+2018-11-06 11:44:52,665=====ERROR=====(sessage)s
+2018-11-06 11:44:52,665=====CRITICAL=====(sessage)s
+2018-11-06 11:46:05,263=====DEBUG=====This is a debug log.
+2018-11-06 11:46:05,263=====INFO=====This is a info log.
+2018-11-06 11:46:05,263=====WARNING=====This is a warning log.
+2018-11-06 11:46:05,263=====ERROR=====This is a error log.
+2018-11-06 11:46:05,263=====CRITICAL=====This is a critical log.
+2018-11-06 11:46:05,263=====DEBUG=====This is a debug log.
+2018-11-06 11:46:05,263=====INFO=====This is a info log.
+2018-11-06 11:46:05,263=====WARNING=====This is a warning log.
+2018-11-06 11:46:05,264=====ERROR=====This is a error log.
+2018-11-06 11:46:05,264=====CRITICAL=====This is a critical log.
+2018-11-06 11:46:21,291=====DEBUG=====(message)s
+2018-11-06 11:46:21,291=====INFO=====(message)s
+2018-11-06 11:46:21,291=====WARNING=====(message)s
+2018-11-06 11:46:21,291=====ERROR=====(message)s
+2018-11-06 11:46:21,291=====CRITICAL=====(message)s
+2018-11-06 11:46:21,291=====DEBUG=====(message)s
+2018-11-06 11:46:21,291=====INFO=====(message)s
+2018-11-06 11:46:21,291=====WARNING=====(message)s
+2018-11-06 11:46:21,292=====ERROR=====(message)s
+2018-11-06 11:46:21,292=====CRITICAL=====(message)s
