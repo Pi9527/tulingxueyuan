@@ -30,3 +30,21 @@
     - 一个锁,可以被一个线程多次申请
     - 主要解决递归调用的时候,需要申请锁的情况
     - 案例09
+# 线程替代方案
+- subprocess
+    - 完全跳过线程,使用进程
+    - 是派生进程的主要替代方案
+    - Python2.4后引入
+- multiprocessing
+    - 使用threading接口派生,使用子进程
+    - 允许为多核或者多CPU派生进程,接口与threading非常相似
+    - Python2.6引入
+- concurrent.futures
+    - 新的异步执行模块
+    - 任务级别的操作
+    - Python3.2引入
+# 多进程
+- 进程间通讯(InterprocessCommunication, IPC)
+- 进程之间无任何共享状态
+- 进程的创建
+    - 案例
