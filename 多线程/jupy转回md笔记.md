@@ -47,4 +47,7 @@
 - 进程间通讯(InterprocessCommunication, IPC)
 - 进程之间无任何共享状态
 - 进程的创建
-    - 案例
+    - 直接生成Process实例对象,案例10
+    - 派生子类
+- 在os中查看pid,ppid以及他们的关系
+    - 案例11
