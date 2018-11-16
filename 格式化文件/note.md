@@ -64,4 +64,52 @@
     - 用单词表示,第一个字母大写
     - 大小写严格区分
     - 配对的标签必须一致
+- 命名空间
+    - 为了防止命名冲突
+        <Student>
+            <Name>Yang</Name>
+            <Age>23</Age>
+        </Student>
+        <Room>
+            <No>2015</No>
+            <Location>1-23-1</Location>
+        </Room>
+    - 如果归并上述两个内容信息,会产生冲突
+    - 为了避免冲突,需要给可能冲突元素添加命名空间
+    - xmlns: xml name space 的缩写
+        <Schooler xmlns:student="http://my_student" xmlns:room="my_room">
+            <student:Name>Yang</student:Name>
+            <Age>23</Age>
+            <room:Name>2015</room:Name>
+            <Location>1-23-1</Location>
+        </Schooler>
+
+# XML访问
+## 读取
+- XML读取分两个主要技术,SAX, DOM
+- SAX(Simple API for XML):
+    - 基于事件驱动的API
+    - 利用SAX解析文档设计到解析器和事件处理两部分
+    - 特点:
+        - 快
+        - 流式读取
+- DOM
+    - 是W3C规定的XML的编程接口
+    - 一个XML文件在缓存中以树形结构保存,读取
+    - 用途
+        - 定位浏览XML任何一个节点信息
+        - 添加删除相应内容
+    - minidom
+    - etree
+- XML文件写入
+    - 更改
+        - ele.set:修改属性
+        - ele.append:添加子元素
+        - ele.remove:删除元素
+    - 生成创建
+        - SubElement
+        - minidom写入
+        - etree创建
+        
+    
         
